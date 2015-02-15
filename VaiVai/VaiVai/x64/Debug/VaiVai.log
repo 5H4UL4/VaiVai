@@ -1,27 +1,19 @@
-﻿Build started 14.02.2015 13:50:53.
-     1>Project "c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\VaiVai\VaiVai.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Moc'ing vaivai.h...
-         Uic'ing vaivai.ui...
-         Rcc'ing vaivai.qrc...
-     1>RCC : warning : No resources in 'c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\VaiVai\vaivai.qrc'.
-         
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\5.4\msvc2013_64_opengl\include\QtSql /IC:\Qt\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\5.4\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_vaivai.cpp main.cpp vaivai.cpp
+﻿Build started 15.02.2015 14:23:57.
+     1>Project "E:\Games\Repository\VaiVai\VaiVai\VaiVai\VaiVai.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\5.4\msvc2013_64_opengl\include\QtSql /IC:\Qt\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\5.4\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_vaivai.cpp main.cpp
          moc_vaivai.cpp
          main.cpp
-         vaivai.cpp
          Generating Code...
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\5.4\msvc2013_64_opengl\include\QtSql /IC:\Qt\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\5.4\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_vaivai.cpp
-         qrc_vaivai.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\x64\Debug\\VaiVai.exe" /NOLOGO /LIBPATH:C:\Qt\5.4\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\x64\Debug\VaiVai.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\x64\Debug\VaiVai.lib" /MACHINE:X64 x64\Debug\moc_vaivai.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Games\Repository\VaiVai\VaiVai\x64\Debug\\VaiVai.exe" /NOLOGO /LIBPATH:C:\Qt\5.4\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Games\Repository\VaiVai\VaiVai\x64\Debug\VaiVai.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Games\Repository\VaiVai\VaiVai\x64\Debug\VaiVai.lib" /MACHINE:X64 x64\Debug\moc_vaivai.obj
          x64\Debug\qrc_vaivai.obj
          x64\Debug\main.obj
+         x64\Debug\renderer.obj
          x64\Debug\vaivai.obj
-         VaiVai.vcxproj -> c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\x64\Debug\VaiVai.exe
-     1>Done Building Project "c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\VaiVai\VaiVai.vcxproj" (Build target(s)).
+         VaiVai.vcxproj -> E:\Games\Repository\VaiVai\VaiVai\x64\Debug\VaiVai.exe
+     1>Done Building Project "E:\Games\Repository\VaiVai\VaiVai\VaiVai\VaiVai.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:04.05
+Time Elapsed 00:00:03.43

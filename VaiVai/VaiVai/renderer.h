@@ -14,10 +14,10 @@ public:
 	explicit Renderer(QWindow *parent = 0);
 	~Renderer();
 
-	virtual void initialize();
+	virtual void Initialize();
 
-	virtual void render(QPainter *painter);
-	virtual void render();
+	virtual void Render(QPainter *painter);
+	virtual void Render();
 	bool m_update_pending;
 	bool m_animating;
 protected:
