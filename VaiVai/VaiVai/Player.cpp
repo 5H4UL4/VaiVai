@@ -13,7 +13,6 @@ Player::~Player()
 {
 }
 
-
 int Player::GetLevel()
 {
 	return level;
@@ -22,6 +21,18 @@ int Player::GetLevel()
 void Player::SetLevel(int _level)
 {
 	level = _level;
+}
+
+//*******************
+void Player::Spawn(void)
+{	
+}
+
+void Player::LevelUp(void)
+{	
+}
+wizard::LevelUp(void)
+{
 }
 
 

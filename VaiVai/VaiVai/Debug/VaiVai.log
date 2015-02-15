@@ -1,27 +1,32 @@
-﻿Build started 14.02.2015 13:49:19.
-     1>Project "c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\VaiVai\VaiVai.vcxproj" on node 2 (Build target(s)).
+﻿Build started 15.02.2015 17:38:58.
+     1>Project "C:\Users\kurskiy.pavel\Documents\GitHub\VaiVai\VaiVai\VaiVai\VaiVai\VaiVai.vcxproj" on node 2 (Build target(s)).
      1>CustomBuild:
          Moc'ing vaivai.h...
          Uic'ing vaivai.ui...
          Rcc'ing vaivai.qrc...
-     1>RCC : warning : No resources in 'c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\VaiVai\vaivai.qrc'.
+     1>RCC : warning : No resources in 'C:\Users\kurskiy.pavel\Documents\GitHub\VaiVai\VaiVai\VaiVai\VaiVai\vaivai.qrc'.
          
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_vaivai.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_vaivai.cpp, GeneratedFiles\Release\moc_vaivai.cpp.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\5.4\msvc2013_64_opengl\include\QtSql /IC:\Qt\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\5.4\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_vaivai.cpp main.cpp vaivai.cpp
+         C:\Program Files\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\5.4\msvc2013\include\QtCore /IC:\Qt\5.4\msvc2013\include\QtGui /IC:\Qt\5.4\msvc2013\include\QtSql /IC:\Qt\5.4\msvc2013\include\QtOpenGL /IC:\Qt\5.4\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_vaivai.cpp main.cpp Player.cpp renderer.cpp vaivai.cpp
          moc_vaivai.cpp
          main.cpp
+         Player.cpp
+         renderer.cpp
          vaivai.cpp
          Generating Code...
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\5.4\msvc2013_64_opengl\include\QtSql /IC:\Qt\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\5.4\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_vaivai.cpp
+         C:\Program Files\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\5.4\msvc2013\include\QtCore /IC:\Qt\5.4\msvc2013\include\QtGui /IC:\Qt\5.4\msvc2013\include\QtSql /IC:\Qt\5.4\msvc2013\include\QtOpenGL /IC:\Qt\5.4\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_vaivai.cpp
          qrc_vaivai.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\Win32\Debug\\VaiVai.exe" /NOLOGO /LIBPATH:C:\Qt\5.4\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\Win32\Debug\VaiVai.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\Win32\Debug\VaiVai.lib" /MACHINE:X86 /SAFESEH Debug\moc_vaivai.obj
+         C:\Program Files\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kurskiy.pavel\Documents\GitHub\VaiVai\VaiVai\VaiVai\Win32\Debug\\VaiVai.exe" /NOLOGO /LIBPATH:C:\Qt\5.4\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kurskiy.pavel\Documents\GitHub\VaiVai\VaiVai\VaiVai\Win32\Debug\VaiVai.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kurskiy.pavel\Documents\GitHub\VaiVai\VaiVai\VaiVai\Win32\Debug\VaiVai.lib" /MACHINE:X86 /SAFESEH Debug\moc_vaivai.obj
          Debug\qrc_vaivai.obj
          Debug\main.obj
+         Debug\Player.obj
+         Debug\renderer.obj
          Debug\vaivai.obj
-     1>Qt5Widgetsd.lib(Qt5Widgetsd.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
-     1>Done Building Project "c:\Users\mrsar_000\documents\visual studio 2013\Projects\VaiVai\VaiVai\VaiVai.vcxproj" (Build target(s)) -- FAILED.
+         VaiVai.vcxproj -> C:\Users\kurskiy.pavel\Documents\GitHub\VaiVai\VaiVai\VaiVai\Win32\Debug\VaiVai.exe
+     1>Done Building Project "C:\Users\kurskiy.pavel\Documents\GitHub\VaiVai\VaiVai\VaiVai\VaiVai\VaiVai.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:04.46
+Time Elapsed 00:00:32.45
